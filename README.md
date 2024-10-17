@@ -27,3 +27,5 @@ git clone https://github.com/your-username/movie-parsing-app.git
 cd la_chatte
 docker-compose up -d
 ```   
+
+You can view all available API endpoints and test them interactively by visiting the automatically generated API documentation at: http://0.0.0.0:8000/docs
