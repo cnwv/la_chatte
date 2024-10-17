@@ -29,6 +29,9 @@ docker-compose up -d
 ```   
 
 You can view all available API endpoints and test them interactively by visiting the automatically generated API documentation at: http://0.0.0.0:8000/docs
+
 You can also test the app through the website:
+
 https://la-chatte.dev-cnwv.ru/ - main page
+
 https://la-chatte.dev-cnwv.ru/docs - API documentation
