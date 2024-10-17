@@ -10,7 +10,7 @@ services:
     ports:
       - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U user -d pub"]
+      test: [ "CMD-SHELL", "pg_isready -U user -d pub" ]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -33,4 +33,3 @@ services:
     ports:
       - "8000:8000"
 
-  # Если нужно добавить другие сервисы (например, фронтенд), можно добавить их сюда.
